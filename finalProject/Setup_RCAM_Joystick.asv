@@ -1,0 +1,11 @@
+clear all; close all; clc;
+
+%% using trim values
+load trim_values
+x0=xSolve
+u0=uSolve
+TF=20
+
+%setup curvature of earth WGS84 model
+a=6378137.0;
+e=0.08181919
